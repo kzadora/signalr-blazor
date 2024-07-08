@@ -1,0 +1,10 @@
+# Visual Studio build artifacts
+Debug/
+Release/
+bin/
+.vs/
+**/*.g.props
+**/*.g.targets
+**/*.nuget.dgspec.json
+**/*.nuget.cache
+
