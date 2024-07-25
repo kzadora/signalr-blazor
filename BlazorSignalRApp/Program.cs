@@ -42,6 +42,9 @@ app.MapRazorComponents<App>()
     .AddInteractiveWebAssemblyRenderMode()
     .AddAdditionalAssemblies(typeof(BlazorSignalRApp.Client._Imports).Assembly);
 
-app.MapHub<ChatHub>("/chathub");
+app.MapHub<ChatHub>("/chathub", (opts) =>
+{
+    
+});
 
 app.Run();
